@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 // Rota para a soma
-app.get('/somar', (req, res) => {
+app.get('/salarios', (req, res) => {
     // Recuperando os números enviados pelo formulário
     const salario = parseFloat(req.query.salario);
     
